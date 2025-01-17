@@ -1,0 +1,47 @@
+body{
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    margin:0;
+}
+
+.header{
+    display:flex;
+    flex-direction:column;
+    background-color:#1F2937;
+    color:white;
+    font-family:'Roboto', sans-serif;
+    padding-left:200px;
+    padding-right:200px;
+    padding-bottom:125px;
+    
+}
+
+.top-header{
+    display:flex;
+    justify-content:space-between;
+    padding-bottom:50px;
+}
+
+.bottom-header{
+    display:flex;
+    justify-content:space-between;
+}
+
+.web-info{
+    display:flex;
+    flex:1;
+    flex-direction:column;
+}
+
+.image{
+    background-color:#6D747D;
+    display:flex;
+    flex:1;
+    justify-content:center;
+    align-items:center;
+}
+
+
+
+
